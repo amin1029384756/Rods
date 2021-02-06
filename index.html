@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divece-width, initial-scale=1.0">
+        <title>Feed | Rods</title>
+        <link rel='stylesheet' href='css/style.css'>
+        <link rel="icon" href="images/favicon.png" nhtype="image/png">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Piedra&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-firestore.js"></script>
+    </head>
+    <body class='bodyBackground' onload='loader()'>
+        <div class="loading">
+            <img class='loaderPage' src='images/favicon.png' alt='logo'>
+            <h4 style="color:black;" class='text-center m-3 '>Loading...</h4>
+        </div>
+        <div class="loaderContent" onload='readPost()'>
+        <div class="bar mb-3">
+            <div class="inner">
+                <p class='logoName text-center'>Feed</p>
+            </div>
+        </div>
+        <div class=' push'>
+            <div class='card-body'>
+                <div>
+                    <div>
+                        <p class="card-text "></p>
+                        <h3 class="text-center p-2 m-2">
+                            <b>Hi, Yo!</b>
+                        </h3>
+                        <h5 class="text-center m-2 p-2">
+                            Lets Post Something!
+                        </h5>
+                        <div class="text-center">
+                            <button class="btn btn-secondary button1 m-1">
+                                <a style="color: red; text-decoration: none;" href="post.html">
+                                    Post!
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://fwd.cx/jYew2x35JB4O">
+        <img src="images/ad-1.png">
+        </a>
+        <div class="container" id='cardSection' onload=''></div>
+        <div class="hide">
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+           <div>
+                <figure><img class='images/image2' src="images/image2"></figure>
+          </div> 
+         </div>
+         <div class="col-md-6">3
+            <form id="w-form">
+                <div class="form-group m-2 p-1">
+                    <label for="namse"><i class="fas fa-user"></i></label>
+                    <input type="text" name="name" id="title" class='form-control identity width' placeholder="Title">
+                </div> 
+                <div class="form-group m-2 p-1 ">
+                    <label><i class='fas fa-envelope'></i></label>
+                    <textarea name="text" id='message' class='form-control identity width' maxlength="200" cols="30" rows="10"> My First Post </textarea>
+                </div>
+                <div class="form-group m-2 p-1">
+                    <label for="namse"><i class="fas fa-user"></i></label>
+                    <input type="text" name="name" id="author" class='form-control identity width' placeholder="Created By">
+                </div> 
+          
+                  <button id='addPostBtn'   class='btn btn-secondary button1  m-3' > Post </button> 
+            </form>
+               
+           </div>
+        </div>
+
+        </div>
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <iframe src="https://tools.fiverr.com/?searchbox-iframe=1&amp;affid=204876&amp;widget-style=1&amp;widget-commission=fiverrhybrid" border="0" scrolling="no" height="253px" width="100%" style="border: 0px; overflow: hidden; width: 463px; max-width: 280px; height: 253px; box-shadow: rgba(17, 17, 17, 0.12) 0px 16px 32px;" class="fasb-iframe-searchbox-widget"  data-origwidth="100%" data-origheight="253px" widget-style="1"></iframe>
+                    </div>
+                    <p class="col-lg-12 footer-text text-center">
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made With Love By <a style=' color:black;' href="https://youtube.com/c/RealLifeCore" target="_blank" >RealLifeCore And ImNotTariq</a></p>
+                        </div>
+                    </div>
+        </footer> 
+<script src="js/index.js"></script>
+</body>
+</html>
